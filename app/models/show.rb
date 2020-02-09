@@ -28,8 +28,6 @@ end
  def self.shows_by_alphabetical_order
    self.order(:name)
  end 
-   
- 
 end 
 
 #Song.where("number_of_stars > ?", 3)
